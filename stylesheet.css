@@ -1,0 +1,113 @@
+body{
+	background-color: #7CC757;
+	text-align: center;
+}
+
+header{
+	height: 150px;
+	background-color: #C14495;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	top: 0px;
+	margin-left: -8px;
+
+}
+
+#banner{
+	width: auto;
+	height: 370px;
+	position: fixed;
+	top: 100px;
+	background: #19444D;
+	margin-left: -200px;
+}
+
+#content{
+	width: auto;
+	position: relative;;
+	top: 400px;
+	background: #88D78C;
+	height: 1050px;
+
+}
+
+#container{
+	/*margin-right: 170px;
+	margin-left: 170px;*/
+	width: auto;
+	padding-right: 170px;
+	padding-left: 170px; 
+}
+
+.floating-box {
+    display: inline-block;
+    width: 420px;
+    height: 190px;
+    margin: 20px;
+    border: 3px solid #19444D;
+    border-radius: 15px;
+    background-color: #7CC757;
+}
+
+.header-cont{
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+.header{
+	height: 50px;
+	background: #F0F0F0;
+	border: 1px solid #CCC
+	width: 960px;
+	margin: 0px auto;
+	background-color: #19444D;
+}
+
+.content{
+	width: 960px;
+	background: #88D78C;
+	border: 1px solid #CCC
+	height: 2000px;
+	margin: 70px auto;
+}
+
+h1{
+    margin: auto;
+	font-family: "Century Gothic";
+	font-size: 45px;
+	color: #7CC757;
+	text-align: center;
+	margin-top: 15px;
+	text-shadow: 3px 3px #19444D;
+}
+
+h2{
+	margin-left: 188px;
+	margin-right: 188px;
+	font-family: "Century Gothic";
+	font-size: 30px;
+	color: #88D78C;
+	text-align: center;
+	margin-top: 150px;
+	text-shadow: 3px 3px black;
+}
+
+h3{
+	font-family: "Century Gothic";
+	font-size: 60px;
+	color: #19444D;
+	text-align: center;
+	margin-top: 20px;
+	text-shadow: 1px 1px black;
+}
+
+p{
+	font-family: "Century Gothic";
+	font-size: 21px;
+	color: #19444D;
+	text-align: center;
+	margin-top: 10px;
+	text-shadow: 1px 1px black;
+}

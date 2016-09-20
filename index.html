@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+    <title>Power Consumption</title>
+    
+    <!--https://developers.google.com/speed/libraries/#libraries  (Länk till källan. Detta är för att visa siffran på själva websidan)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  </head>
+  
+  <body>
+
+    
+    <header>
+        <h1>Every year we consume 136 TWh of electricity in Sweden, but what does that really mean?</h1>
+    </header>
+
+    <div id="container">
+
+        <div id="banner">
+            <h2>When you get your electric bill it may be difficult to understand what it really means that you have consumed X number of kWh [kilowatthours]. Below you can see some numbers that might help you get some perspective.</h2>
+        </div>
+
+        <div id="content">
+   
+            <div class="content">
+
+                <div class="floating-box"> 
+                    <p>Since you entered this site, we have spent this many kWh in Sweden:
+                    </p>   
+                    <h3 class="energyconsumption">
+                    </h3>
+                </div>
+
+                <script type="text/javascript">
+                    var energyconsumption = 0;
+                    (function(){
+                        energyconsumption = energyconsumption + 4.30967198769614000;
+                        var energyconsumptionrounded = Math.round(energyconsumption*1)/1;
+                        $(".energyconsumption").html(energyconsumptionrounded);
+                        if (energyconsumptionrounded >= 136000000000) return;
+                        setTimeout(arguments.callee, 1);
+                    })();
+                </script>
+
+    
+                <div class="floating-box"> 
+                    <p># of searches on Google that you could do with the same amount of kWh:</p>   
+                    <h3 class="googlesearch">
+                    </h3>
+                </div>
+
+                <script type="text/javascript">
+                    var googlesearch = 0;
+                    (function(){
+                        googlesearch = googlesearch + 14365.5732923205;
+                        var googlesearchrounded = Math.round(googlesearch*1)/1;
+                        $(".googlesearch").html(googlesearchrounded);
+                        if (googlesearchrounded >= 453333333333333) return;
+                        setTimeout(arguments.callee, 1);
+                    })();
+                </script>
+
+                <div class="floating-box">
+                    <p># of meals that you could <br>cook with the same amount of kWh:</p>   
+                    <h3 class="coocking">
+                    </h3>
+                </div>
+
+                <script type="text/javascript">
+                    var coocking = 0;
+                    (function(){
+                        coocking = coocking + 0.00134677249615504;
+                        var coockingrounded = Math.round(coocking*10)/10;
+                        $(".coocking").html(coockingrounded);
+                        if (coockingrounded >= 42500000) return;
+                        setTimeout(arguments.callee, 1);
+                    })();
+                </script>
+
+                <div class="floating-box"> 
+                <p># of times you can use your dishwasher with the same amount of kWh:</p>    
+                    <h3 class="dishwasher">
+                    </h3>
+                </div>
+
+                <script type="text/javascript">
+                    var dishwasher = 0;
+                    (function(){
+                        dishwasher = dishwasher + 0.00215483599384807;
+                        var dishwasherrounded = Math.round(dishwasher*10)/10;
+                        $(".dishwasher").html(dishwasherrounded);
+                        if (dishwasherrounded >= 68000000) return;
+                        setTimeout(arguments.callee, 1);
+                    })();
+                </script>
+<!--Start Here-->
+        <div class="floating-box">    
+            <h3 class="popcorn">
+            </h3>
+        </div>
+
+        <script type="text/javascript">
+            var popcorn = 0;
+            (function(){
+                popcorn = popcorn + 0.04309671987696140;
+                var popcornrounded = Math.round(popcorn*1)/1;
+                $(".popcorn").html(popcornrounded);
+                if (popcornrounded >= 1360000000) return;
+                setTimeout(arguments.callee, 1);
+            })();
+        </script>
+
+        <div class="floating-box">    
+            <h3 class="watchtv">
+            </h3>
+        </div> 
+
+        <script type="text/javascript">
+            var watchtv = 0;
+            (function(){
+                watchtv = watchtv + 0.03078337134068670;
+                var watchtvrounded = Math.round(watchtv*1)/1;
+                $(".watchtv").html(watchtvrounded);
+                if (watchtvrounded >= 971428571.4) return;
+                setTimeout(arguments.callee, 1);
+            })();
+        </script>
+
+
+        <div class="floating-box">    
+            <h3 class="vaccuumcleaning">
+            </h3>
+        </div>
+
+        <script type="text/javascript">
+            var vaccuumcleaning = 0;
+            (function(){
+                vaccuumcleaning = vaccuumcleaning + 7.06503604540351000;
+                var vaccuumcleaningrounded = Math.round(vaccuumcleaning*1)/1;
+                $(".vaccuumcleaning").html(vaccuumcleaningrounded);
+                if (vaccuumcleaningrounded >= 971428571.4) return;
+                setTimeout(arguments.callee, 1);
+            })();
+        </script>
+
+        <div class="floating-box">    
+            <h3 class="eatingbigmac">
+            </h3>
+        </div> 
+
+        <script type="text/javascript">
+            var eatingbigmac = 0;
+            (function(){
+                eatingbigmac = eatingbigmac + 4.30967198769614000;
+                var eatingbigmacrounded = Math.round(eatingbigmac*1)/1;
+                $(".eatingbigmac").html(eatingbigmacrounded);
+                if (eatingbigmacrounded >= 971428571.4) return;
+                setTimeout(arguments.callee, 1);
+            })();
+        </script>
+
+    </div>
+        </div>
+    </div>
+    
+ 
+
+  </body>
+
+</html>
