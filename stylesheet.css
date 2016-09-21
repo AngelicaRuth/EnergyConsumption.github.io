@@ -102,11 +102,11 @@ h1{
 
 @media screen and (max-width: 380px) and (max-width: 640px) {
     h1 {
-        font-size: 45px;
+        font-size: 65px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/*@media screen and (min-width: 768px) and (max-width: 1024px) {
     header {
         height: 225px;
     }
@@ -116,7 +116,7 @@ h1{
     header {
         height: 150px;
     }
-}
+}*/
 
 h2{
 	margin-left: 188px;
