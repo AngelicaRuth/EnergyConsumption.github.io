@@ -13,11 +13,17 @@ header{
 	margin-left: -8px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) and (max-width: 640px) {
     header {
         height: 600px;
     }
 }
+
+/*@media screen and (max-width: 1180px) {
+    header {
+        height: 600px;
+    }
+}*/
 
 #banner{
 	width: auto;
