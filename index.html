@@ -17,8 +17,23 @@
 
     
     <header>
-        <h1>Every year we consume 136 TWh of electricity in Sweden, but what does that really mean?</h1>
+        <h1>Every year we consume 136 TWh = 136 000 000 000 kWh of electricity in Sweden, but what does that really mean?</h1>
+        <div id="floating-box"> 
+            <p>Since you entered this site, we have spent this many kWh in Sweden:</p>   
+            <h3 class="energyconsumption"></h3>
+        </div>
+        <script type="text/javascript">
+            var energyconsumption = 0;
+            (function(){
+                energyconsumption = energyconsumption + 4.30967198769614000;
+                var energyconsumptionrounded = Math.round(energyconsumption*1)/1;
+                $(".energyconsumption").html(energyconsumptionrounded);
+                if (energyconsumptionrounded >= 136000000000) return;
+                setTimeout(arguments.callee, 1);
+            })();
+        </script>
     </header>
+
 
     <div id="container">
 
@@ -30,23 +45,7 @@
    
             <div class="content">
 
-                <div class="floating-box"> 
-                    <p>Since you entered this site, we have spent this many kWh in Sweden:
-                    </p>   
-                    <h3 class="energyconsumption">
-                    </h3>
-                </div>
 
-                <script type="text/javascript">
-                    var energyconsumption = 0;
-                    (function(){
-                        energyconsumption = energyconsumption + 4.30967198769614000;
-                        var energyconsumptionrounded = Math.round(energyconsumption*1)/1;
-                        $(".energyconsumption").html(energyconsumptionrounded);
-                        if (energyconsumptionrounded >= 136000000000) return;
-                        setTimeout(arguments.callee, 1);
-                    })();
-                </script>
 
     
                 <div class="floating-box"> 
