@@ -19,11 +19,11 @@ header{
     }
 }
 
-/*@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1180px) {
     header {
         height: 600px;
     }
-}*/
+}
 
 #banner{
 	width: auto;
