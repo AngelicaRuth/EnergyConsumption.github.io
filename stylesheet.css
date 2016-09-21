@@ -16,7 +16,7 @@ header{
 /* Phone*/
 	@media screen and (max-width: 380px) and (max-width: 640px) {
    	 header {
-    	    height: 320px;
+    	    height: 360px;
     	}
 	}
 /*Tablet*/
