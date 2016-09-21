@@ -100,24 +100,6 @@ h1{
 	text-shadow: 3px 3px #19444D;
 }
 
-@media screen and (max-width: 380px) and (max-width: 640px) {
-    h1 {
-        font-size: 65px;
-    }
-}
-
-/*@media screen and (min-width: 768px) and (max-width: 1024px) {
-    header {
-        height: 225px;
-    }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
-    header {
-        height: 150px;
-    }
-}*/
-
 h2{
 	margin-left: 188px;
 	margin-right: 188px;
