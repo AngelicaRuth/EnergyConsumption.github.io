@@ -59,7 +59,8 @@ header{
     border-radius: 15px;
     background-color: #99E1D9;
 }
-
+/*Lägg detta sist. Om den här ligger under en klass/id kommer den ha prio framför det som ligger ovanför, 
+detta läses sist och om det ger annan info än det som redan angetts kommer detta köras. Se till att lägg in olika font-size för de olika width.*/
 /*Computer*/
 	@media screen and (min-width: 1281px) and (max-width: 1600px) {
     	header {
